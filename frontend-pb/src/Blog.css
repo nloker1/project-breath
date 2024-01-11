@@ -1,0 +1,53 @@
+/* Base styles for mobile and smaller screens */
+.blog-posts {
+  margin-top: 10px; /* Space below the header */
+  padding: 0 20px; /* Padding on the sides */
+  text-align: left; /* Left-align text */
+}
+
+.blog-posts h1 {
+  font-size: 2.5rem; /* Responsive font size for mobile */
+  margin-bottom: 30px; /* Space below the h1 header */
+}
+
+.blog-post {
+  margin-bottom: 20px; /* Space between blog posts */
+  border-bottom: 1px solid #ccc; /* Border for separation */
+  padding-bottom: 15px; /* Padding at the bottom of each post */
+}
+
+.blog-post h2 {
+  font-size: 1.75rem; /* Font size for blog post titles */
+  margin-bottom: 5px; /* Space below the title */
+}
+
+.blog-post h2 a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Color for the post title links */
+}
+
+.blog-post p {
+  font-size: 1rem; /* Font size for the date */
+  color: #666; /* Color for the date */
+}
+
+/* Style for wider screens */
+@media (min-width: 768px) {
+  .blog-posts {
+    margin-left: 300px; /* Adjust according to your sidebar's width */
+    padding: 20px 0; /* Padding on the top and bottom */
+  }
+
+  .blog-posts h1 {
+    font-size: 3.25rem; /* Larger font size for wider screens */
+    margin-left: 3px;
+  }
+
+  .blog-post {
+    max-width: 800px; /* Limit the width of blog posts */
+  }
+
+  .blog-post h2 {
+    font-size: 2rem; /* Larger font size for blog post titles */
+  }
+}

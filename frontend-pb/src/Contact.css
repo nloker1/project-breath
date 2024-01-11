@@ -1,0 +1,92 @@
+/* This will apply to the entire form, aligning its children vertically and centering them */
+
+.contact-container h1{
+    font-size: 2.25rem; /* Larger font size for wider screens */
+    margin-bottom: 30px; /* Adjust spacing as needed */
+    margin-left: 30px;
+    align-text: left
+  }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0 20px; /* Adds padding on smaller screens */
+  width: 90%; /* Sets width for smaller screens */
+  max-width: 800px; /* Maximum width of the form */
+}
+
+.form-group {
+  width: 100%; /* Full width within the form */
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.message-textarea {
+  height: 150px;
+}
+
+/* Style for each form field */
+form input,
+form textarea,
+form button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%; /* Full width within the form */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the form button */
+form button {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for wider screens */
+@media (min-width: 768px) {
+  .contact-container h1{
+    font-size: 3rem; /* Larger font size for wider screens */
+    padding-top: 40px; /* Padding on the top and bottom */
+    margin-left: 20px;
+    align-text: left;
+    margin-top: 10px;
+
+  }
+
+  form {
+    margin-left: 0px; /* Adjust according to your sidebar's width */
+    margin-right: 30px; /* Adds spacing on the right */
+    padding: 0; /* Resets padding on larger screens */
+  }
+
+  .form-group {
+    max-width: 500px; /* Limits the width of form groups */
+    margin-left: 30px; /* Adds left margin for alignment */
+  }
+
+
+  form button {
+    max-width: 500px; /* Limits the width of form fields */
+  }
+
+  form button {
+    margin-left: 30px; /* Aligns button with other form elements */
+  }
+
+
+}
+

@@ -1,0 +1,59 @@
+/* Base styles for mobile and smaller screens */
+.about-content {
+  margin-top: 10px; /* Space below the header */
+  text-align: left; /* Left-align text on small screens */
+  padding: 0 20px; /* Padding on the sides */
+}
+
+.about-content h1 {
+  font-size: 2.5rem; /* Responsive font size for mobile */
+  margin-bottom: 20px; /* Space below the h1 header */
+}
+
+.about-content .profile-picture {
+  width: 50%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is block level */
+  margin: 10px auto; /* Center image horizontally */
+}
+
+.about-content p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* Text will wrap and not expand indefinitely */
+}
+
+/* Styles for wider screens */
+@media (min-width: 768px) {
+
+  .about-content {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-left: 300px; /* Adjust according to your sidebar's width */
+    padding: 0px 0; /* Padding on the top and bottom */
+  }
+
+  .about-content h1 {
+    font-size: 3.75rem; /* Larger font size for wider screens */
+    margin-bottom: 30px; /* Adjust spacing as needed */
+    margin-left: 30px
+
+  }
+
+  .about-content .profile-picture {
+    width: 25%; /* Adjust image width for wider screens */
+    margin: 10px 0; /* Adjust spacing around the image */
+    margin-left: 30px
+  }
+
+  .about-content p {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 800px; /* Limit the width of paragraphs for readability */
+    margin-left: 30px;
+    font-size: 1.25rem
+
+  }
+}
