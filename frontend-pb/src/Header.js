@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import Energy from './Energy'
 
 const Header = () => {
   return (
@@ -14,13 +15,13 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Start Here</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className="dropdown">
-            <Link to="/guides">Breath Guides</Link>
+            <Link to="/breath-work">Breath Work</Link>
             <div className="dropdown-content">
-              <Link to="/basic-guide">Breath Basics</Link>
-              <Link to="/advanced-guide">Managing Stress</Link>
+              <Link to="/Energy">Energy</Link>
+              <Link to="/Relaxation">Relaxation</Link>
             </div>
           </li>
           <li><Link to="/contact">Contact</Link></li>

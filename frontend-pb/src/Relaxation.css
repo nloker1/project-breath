@@ -1,0 +1,19 @@
+.energy-container {
+  text-align: left;
+  padding: 20px;
+}
+
+.energy-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.energy-container p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+audio {
+  width: 100%; /* Adjust as needed */
+  max-width: 600px; /* Adjust as needed */
+}

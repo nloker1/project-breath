@@ -49,7 +49,7 @@ const Contact = () => {
     <div>
       <Header />
       <div className="contact-container"> {/* This container will help center the form on the page */}
-      <h1>Free Initial Consultation</h1>
+      <h1>Contact Project Breath</h1>
       {!isSubmitted ? (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
