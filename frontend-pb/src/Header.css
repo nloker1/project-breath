@@ -3,19 +3,19 @@
 .App-header {
     
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    padding: 10px 20px; /* Vertical and horizontal padding */
+
     display: flex; /* Enables flexbox */
-    justify-content: center; /* Centers the navigation menu horizontally */
-    flex-direction: column;
+    justify-content: left; /* Centers the navigation menu horizontally */
+    flex-direction: row;
     align-items: center; /* Aligns items vertically */
 }
 
-.header-content h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4em; /* Adjust font size as needed */
-    color: #333; /* Adjust color as needed */
+
+.header-content img {
+  height: 160px; /* Adjust the height as needed */
+  width: auto; /* This will maintain the aspect ratio of the logo */
 }
+
 .App-header nav ul {
     list-style: none; /* Removes default list styling */
     margin: 1; /* Removes default margin */

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import './Home.css'; // Uncomment this line to use the CSS
+
 
 const Home = () => {
 
@@ -80,7 +82,8 @@ const Home = () => {
         <ul>
             <li>Follow the breathing guides to improve your breath ability.</li>
             <li>Reach out to us for personalized breath training.</li>
-        </ul>    
+        </ul>  
+        <Footer />
       </div>
     </div>
   );

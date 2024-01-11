@@ -1,0 +1,36 @@
+.App-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid #ccc;
+  width: 100%; /* Ensure full width */
+
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 120px; /* Adjust size as needed */
+  width: auto;
+}
+
+.footer-right {
+  display: flex;
+  align-items: left;
+}
+
+.social-link {
+  margin-left: 20px; /* Space between links */
+  text-decoration: none;
+  color: #333; /* Adjust color as needed */
+  font-size: 22px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+.social-link:hover {
+  color: #007bff; /* Change for hover effect */
+}

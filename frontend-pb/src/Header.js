@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header className="App-header">
       <div className="header-content">
-        <h1>Project Breath</h1>
+        <Link to="/">
+          <img src="pb_logo.jpg" className="logo" alt="Project Breath Logo" />
+        </Link>
       </div>
       <nav>
         <ul>
@@ -17,12 +19,11 @@ const Header = () => {
           <li className="dropdown">
             <Link to="/guides">Breath Guides</Link>
             <div className="dropdown-content">
-              <Link to="/basic-guide">Breathing Basics</Link>
+              <Link to="/basic-guide">Breath Basics</Link>
               <Link to="/advanced-guide">Managing Stress</Link>
-              {/* Add more dropdown links here */}
             </div>
           </li>
-          <li><Link to="/contact">Breath Coaching</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/about">About</Link></li>
           {/* other links */}
         </ul>
