@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="footer-left">
         <img src="pb_logo.jpg" alt="PB Logo" className="footer-logo" />
       </div>
+
     </footer>
   );
 }

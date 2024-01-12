@@ -1,9 +1,7 @@
 /* Header.css */
 
 .App-header {
-    
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-
     display: flex; /* Enables flexbox */
     justify-content: left; /* Centers the navigation menu horizontally */
     flex-direction: row;
@@ -15,8 +13,6 @@
   height: 160px; /* Adjust the height as needed */
   width: auto; /* This will maintain the aspect ratio of the logo */
 }
-
-
 
 .side-panel a {
   color: black; /* Set the text color */
@@ -31,16 +27,11 @@
   text-decoration: underline; /* Add underline on hover */
 }
 
-
 .hamburger {
   display: none; /* Hide hamburger menu on larger screens */
   font-size: 24px;
   cursor: pointer;
 }
-
-
-
-
 
 /* Responsive styles */
 @media screen and (max-width: 1020px) {
@@ -52,47 +43,44 @@
 
   .hamburger {
     display: block; /* Show hamburger icon on smaller screens */
-    font-size:40px;
-
+    font-size: 40px;
   }
 
   .side-panel {
-  position: fixed;
-  top: 0;
-  right: -100%; /* Start off-screen to the right */
-  width: 250px; /* Adjust width as needed */
-  height: 100%;
-  background-color: white;
-  color: black;
-  overflow-x: hidden;
-  transition: 0.5s; /* Smooth slide-in transition */
-  padding-top: 60px; /* Adjust as needed */
-  z-index: 100;
-}
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start off-screen to the right */
+    width: 250px; /* Adjust width as needed */
+    height: 100%;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    transition: 0.5s; /* Smooth slide-in transition */
+    padding-top: 60px; /* Adjust as needed */
+    z-index: 100;
+  }
 
-.side-panel a {
-  padding: 10px 15px;
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-}
+  .side-panel a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
 
-.side-panel a:hover {
-  color: black;
-}
+  .side-panel a:hover {
+    color: black;
+  }
 
-/* When side panel is open */
-.side-panel.open {
-  right: 0; /* Slide in */
-}
+  /* When side panel is open */
+  .side-panel.open {
+    right: 0; /* Slide in */
+  }
 
-/* Adjust hamburger button as needed */
-.hamburger {
-  cursor: pointer;
-  /* Other styles... */
-}
-
-
+  /* Adjust hamburger button as needed */
+  .hamburger {
+    cursor: pointer;
+    /* Other styles... */
+  }
 }

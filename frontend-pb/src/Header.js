@@ -27,7 +27,6 @@ const Header = () => {
           {/* Add other menu items here */}
         </div>
       </nav>
-      {/* Any other header content */}
     </header>
   );
 }
