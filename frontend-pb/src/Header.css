@@ -3,13 +3,11 @@
 .App-header {
     
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-
     display: flex; /* Enables flexbox */
     justify-content: left; /* Centers the navigation menu horizontally */
     flex-direction: row;
     align-items: center; /* Aligns items vertically */
 }
-
 
 .header-content img {
   height: 160px; /* Adjust the height as needed */
@@ -66,4 +64,60 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.menu-button {
+  display: none; /* Initially hide the button */
+}
+
+/* Add CSS to style the navigation menu */
+.header-nav {
+  display: flex;
+  justify-content: left;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* Initially hide the ul on all screens */
+  flex-direction: row;
+}
+
+.header-nav li {
+  margin: 0 15px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.header-nav a:hover {
+  color: #007bff;
+}
+
+/* Media query to show/hide the hamburger menu */
+@media screen and (max-width: 768px) {
+  .header-nav ul.show-menu {
+    display: flex; /* Show the menu when the button is clicked */
+    flex-direction: column;
+    position: absolute;
+    top: 50px; /* Adjust the top position as needed */
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .header-nav ul.show-menu li {
+    margin: 10px;
+  }
+
+  .header-nav ul.show-menu a {
+    font-size: 1.2em;
+  }
 }

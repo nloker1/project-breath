@@ -1,10 +1,15 @@
 // Header.js
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import Energy from './Energy'
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <header className="App-header">
       <div className="header-content">
@@ -12,7 +17,10 @@ const Header = () => {
           <img src="pb_logo.jpg" className="logo" alt="Project Breath Logo" />
         </Link>
       </div>
-      <nav>
+      <button className="menu-button" onClick={toggleMenu}>
+        &#9776; {/* Hamburger icon */}
+      </button>
+      <nav className={`header-nav ${showMenu ? 'show-menu' : ''}`}>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -29,7 +37,6 @@ const Header = () => {
           {/* other links */}
         </ul>
       </nav>
-      {/* Any other header content */}
     </header>
   );
 }
