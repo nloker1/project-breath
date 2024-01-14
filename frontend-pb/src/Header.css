@@ -6,7 +6,6 @@
     justify-content: left; /* Centers the navigation menu horizontally */
     flex-direction: row;
     align-items: center; /* Aligns items vertically */
-    padding: 0 20px;
 }
 
 .App-header img {
@@ -31,6 +30,10 @@
   display: none; /* Hide hamburger menu on larger screens */
   font-size: 24px;
   cursor: pointer;
+}
+
+  .side-panel .close-btn {
+  display:none;
 }
 
 /* Responsive styles */
@@ -77,6 +80,17 @@
   .side-panel.open {
     right: 0; /* Slide in */
   }
+
+  .side-panel .close-btn {
+  display:block;
+  position: absolute; /* Position the button relative to the side-panel */
+  top: 10px; /* Adjust the position as needed */
+  right: 10px; /* Adjust the position as needed */
+  border: none; /* Remove border */
+  background: none; /* Transparent background */
+  font-size: 24px; /* Adjust the font size as needed */
+  cursor: pointer;
+}
 
   /* Adjust hamburger button as needed */
   .hamburger {

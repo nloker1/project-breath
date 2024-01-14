@@ -13,13 +13,15 @@ const Header = () => {
   return (
     <header className="App-header">
       <Link to="/">
-        <img src="pb_logo.jpg" className="logo" alt="Project Breath Logo" />
+        <img src="pb-logo.jpg" className="logo" alt="Project Breath Logo" />
       </Link>
       <nav className="navbar">
         <button className="hamburger" onClick={togglePanel}>
           ☰ {/* Hamburger Icon */}
         </button>
         <div className={`side-panel ${isPanelOpen ? 'open' : ''}`}>
+        <button className="close-btn" onClick={togglePanel}>×</button> {/* Close button */}
+
           <a href="/why">Why Breath Work?</a>
           <a href="/breath-work">Guided Sessions</a>
           <a href="/about">About</a>

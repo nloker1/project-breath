@@ -1,14 +1,15 @@
 .breathwork-container {
   text-align: left;
-  padding: 20px;
 }
 
 .breathwork-container h1{
   font-size: 50px;
+  padding-left: 10px;
 }
 
 .links-container {
   margin-top: 20px;
+  padding-left: 20px;
 }
 
 .links-container a {
