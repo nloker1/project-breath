@@ -1,0 +1,26 @@
+/* AudioLink.css */
+
+.audio-link {
+
+  border-radius: 8px; /* Rounded corners for a softer look */
+  padding: 20px; /* Padding inside the container */
+  margin: 20px 0; /* Space above and below the container */
+}
+
+.audio-link h2 {
+  color: #333; /* Dark color for the title */
+  font-size: 44px; /* Size of the title */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.audio-link p {
+  color: #666; /* A slightly lighter color for the description */
+  font-size: 18px; /* Size of the description */
+  margin-bottom: 15px; /* Space below the description */
+}
+
+.audio-link audio {
+  width: 100%; /* Full width of the container */
+  outline: none; /* Remove outline for a clean look */
+  /* Additional styling for the audio player if needed */
+}

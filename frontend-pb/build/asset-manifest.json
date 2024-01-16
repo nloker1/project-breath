@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c82c8d1.css",
-    "main.js": "/static/js/main.1f02495f.js",
+    "main.css": "/static/css/main.76d42bd5.css",
+    "main.js": "/static/js/main.fd86ab1c.js",
     "static/js/787.1232c12c.chunk.js": "/static/js/787.1232c12c.chunk.js",
     "static/media/mtn_photo.jpg": "/static/media/mtn_photo.0ee592a977018651fde3.jpg",
     "index.html": "/index.html",
-    "main.4c82c8d1.css.map": "/static/css/main.4c82c8d1.css.map",
-    "main.1f02495f.js.map": "/static/js/main.1f02495f.js.map",
+    "main.76d42bd5.css.map": "/static/css/main.76d42bd5.css.map",
+    "main.fd86ab1c.js.map": "/static/js/main.fd86ab1c.js.map",
     "787.1232c12c.chunk.js.map": "/static/js/787.1232c12c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c82c8d1.css",
-    "static/js/main.1f02495f.js"
+    "static/css/main.76d42bd5.css",
+    "static/js/main.fd86ab1c.js"
   ]
 }

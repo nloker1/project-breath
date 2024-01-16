@@ -1,7 +1,7 @@
 /* This will apply to the entire form, aligning its children vertically and centering them */
 
 .contact-container h1{
-    font-size: 2.25rem; /* Larger font size for wider screens */
+    font-size: 44px; /* Larger font size for wider screens */
     margin-bottom: 30px; /* Adjust spacing as needed */
     margin-left: 30px;
     align-text: left

@@ -1,0 +1,36 @@
+start-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light background for readability */
+  color: #333; /* Dark text for contrast */
+}
+
+.start-container h1 {
+  color: Black; /* A calming blue for the title */
+  font-size: 44px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.start-container p {
+  font-size: 23px;
+  line-height: 1.6; /* Improved readability for longer text */
+  margin-bottom: 20px;
+  margin-left: 20px;
+  max-width: 900px;
+}
+
+.benefits-list {
+  text-align: left;
+  display: inline-block; /* Centering the list */
+  max-width: 900px; /* Limiting width for better readability */
+}
+
+.benefits-list li {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.benefits-list strong {
+  color: Black; /* Dark green for emphasis */
+}

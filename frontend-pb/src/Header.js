@@ -22,8 +22,8 @@ const Header = () => {
         <div className={`side-panel ${isPanelOpen ? 'open' : ''}`}>
         <button className="close-btn" onClick={togglePanel}>×</button> {/* Close button */}
 
-          <a href="/why">Why Breath Work?</a>
-          <a href="/breath-work">Guided Sessions</a>
+          <a href="/start-here">Start Here</a>
+          <a href="/audio-recording">Audio Recordings</a>
           <a href="/about">About</a>
           <a href="/contact">Contact</a>
           {/* Add other menu items here */}

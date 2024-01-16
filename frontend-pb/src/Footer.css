@@ -1,4 +1,5 @@
 .App-footer {
+  margin-top: 20px;
   display: flex;
   align-items: center;
 
@@ -6,29 +7,9 @@
 
 }
 
-.footer-left {
-  display: flex;
-  align-items: center;
-}
 
-.footer-logo {
-  height: 160px; /* Adjust size as needed */
-  width: auto;
-}
-
-.footer-right {
-  display: flex;
-  align-items: left;
-}
-
-.social-link {
-  margin-left: 20px; /* Space between links */
-  text-decoration: none;
-  color: #333; /* Adjust color as needed */
-  font-size: 22px; /* Adjust font size as needed */
-  font-weight: bold;
-}
-
-.social-link:hover {
-  color: #007bff; /* Change for hover effect */
+.App-footer .logo {
+    height: 160px; /* Adjust the height as needed */
+    width: auto; /* This will maintain the aspect ratio of the logo */
+    /* Add more styles as required */
 }

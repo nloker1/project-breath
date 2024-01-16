@@ -46,7 +46,12 @@
 
   .hamburger {
     display: block; /* Show hamburger icon on smaller screens */
-    font-size: 40px;
+    font-size: 100px;
+    margin-right: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+
   }
 
   .side-panel {
