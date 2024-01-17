@@ -17,6 +17,14 @@
   margin: 10px auto; /* Center image horizontally */
 }
 
+.about-content .chuck-photo {
+  width: 50%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image is block level */
+  margin: 10px auto; /* Center image horizontally */
+
+  }
+
 .about-content p {
   margin-top: 10px;
   margin-bottom: 10px;
