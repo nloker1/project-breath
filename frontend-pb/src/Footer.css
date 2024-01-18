@@ -1,9 +1,8 @@
 .App-footer {
-  margin-top: 20px;
   display: flex;
-  align-items: center;
-
+  justify-content: left;
   width: 100%; /* Ensure full width */
+  background-color: white;
 
 }
 

@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   color: white; /* Text color */
+  max-width:1350px;
 }
 
 .overlay-text {
@@ -30,17 +31,3 @@
   Font-weight: bold;
 }
 
-.subscribe-button {
-  background-color: #007bff; 
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.5em;
-  margin-top: 20px;
-}
-
-.subscribe-button:hover {
-  background-color: #0056b3; 
-}

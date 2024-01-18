@@ -7,6 +7,7 @@ import './StartHere.css';
 
 const Why = () => {
   return (
+    <div>
     <div className="start-container">
       <Header />
 
@@ -37,8 +38,10 @@ const Why = () => {
       No gym membership, no fancy equipment, just some peace and quiet and some guidance. 
       We have some of the best teacher so let's get started!  <Link to="/audio-recording">Audio Recordings</Link>
       </p>
+    </div>
     <Footer />
     </div>
+
   );
 }
 

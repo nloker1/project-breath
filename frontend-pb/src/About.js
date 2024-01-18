@@ -31,6 +31,7 @@ const AboutMe = () => {
         by James Nestor, Chuck McGee, Patrick Mckeown, Moshe Feldenkrais, Nick Straus-Klein, Kaspar Van Der Muelen, and others. 
       </p>
       </div>
+      <Footer />
     </div>
 
   );

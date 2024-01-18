@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AudioFiles from './AudioData';
 import Header from './Header';
+import Footer from './Footer';
+
 import './AudioRecording.css';
 
 
@@ -21,7 +23,7 @@ const AudioRecording = () => {
           </Link>
         ))}
       </div>
-
+      <Footer />
     </div>
   );
 }
