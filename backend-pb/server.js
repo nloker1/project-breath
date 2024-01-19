@@ -51,24 +51,8 @@ app.post('/subscribe', (req, res) => {
             res.status(500).send('Error inserting into the database');
             return;
           }
-          // Email saved, now send a confirmation email
-          const mailOptions = {
-            from: 'nloker1@gmail.com', // Your email
-            to: email, // Subscriber's email
-            subject: 'Subscription Confirmation',
-            text: 'Thank you for subscribing to Project Breath!',
-            replyTo: 'nloker1@gmail.com'
-          };
-
-          transporter.sendMail(mailOptions, (error, info) => {
-            if (error) {
-              console.log(error);
-              res.status(500).send('Error sending confirmation email');
-            } else {
-              console.log('Confirmation email sent: ' + info.response);
-              res.status(200).json({ message: 'Subscription successful! Confirmation email sent.' });
-            }
-          });
+          // Email saved, respond with success message
+          res.status(200).json({ message: 'Subscription successful!' });
         });
       }
     });
