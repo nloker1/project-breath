@@ -13,7 +13,7 @@ const AudioRecording = () => {
     <div className="audio-container">
       <Header />
       <div className="header-with-image">
-        <h1> Breathwork from Chuck Mcgee III</h1>
+        <h1> Breathwork from Chuck McGee III</h1>
         <img src="chuck_mcgee_iii.jpeg" alt="Descriptive Alt Text" />
       </div>
      <div className="links-container">

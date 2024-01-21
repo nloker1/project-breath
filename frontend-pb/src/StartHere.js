@@ -11,11 +11,11 @@ const Why = () => {
     <div className="start-container">
       <Header />
 
-      <h1> What even is Breathwork?</h1>
+      <h1> What <i>Is</i> Breathwork?</h1>
       <p> The world of breathwork can seem complex and intimidating. Breathwork encompasses a wide variety of 
-      breathing techniques from the ancient to the modern. With so many options it is hard to know where to 
+      breathing techniques from ancient to modern. With so many options it is hard to know where to 
       begin. We define breathwork as anytime you are conciously manipulating your breath to change
-      your physical, mental, or emotional self. 
+      your physical, mental, or emotional state. 
       </p>
 
       <h1> Why practice Breathwork? </h1>
