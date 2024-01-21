@@ -4,6 +4,8 @@ const cors = require('cors');
 const app = express();
 require('dotenv').config();
 const { Pool } = require('pg');
+const morgan = require('morgan');
+app.use(morgan('combined'));
 
 const pool = new Pool({
   user: process.env.PGUSER,
@@ -83,7 +85,7 @@ app.post('/submit-form', (req, res) => {
   });
 });
 
-const port = process.env.PORT || 3001; // Fallback to 3001 if process.env.PORT is not set
+const port = process.env.PORT || 3002; // Fallback to 3001 if process.env.PORT is not set
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
