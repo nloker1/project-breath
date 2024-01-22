@@ -87,7 +87,7 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
         ) : (
-          <p>Message sent successfully! We will be in touch soon!</p>
+          <h2>Message sent successfully! We will be in touch soon!</h2>
         )}
     </div>
     </div>

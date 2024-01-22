@@ -23,6 +23,10 @@ const SubscriptionForm = () => {
 
 const handleSubmit = (event) => {
     event.preventDefault();
+    setIsSubscribed(false); // Reset the subscribed state
+    setIsAlreadySubscribed(false); // Reset the already subscribed state
+
+
     if (validateEmail(email)) {
         console.log('Submitted email:', email);
         
@@ -37,7 +41,17 @@ const handleSubmit = (event) => {
             },
             body: JSON.stringify({ email: email }),
         })
-        .then(response => response.json())
+        .then(response => {
+            if (response.status === 409) {
+                // Email is already subscribed
+                setIsAlreadySubscribed(true);
+                throw new Error('Email is already subscribed');
+            }
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             console.log('Success:', data);
             setEmail(''); // Clear the email field after successful submission
@@ -45,7 +59,7 @@ const handleSubmit = (event) => {
         })
         .catch((error) => {
             console.error('Error:', error);
-            
+
         });
 
         setEmailError(''); // Clear error message
@@ -69,6 +83,8 @@ const handleSubmit = (event) => {
                 <button type="submit" className="submit-button">Subscribe</button>
             </form>
             {isSubscribed && <div className="success-message">Subscription successful!</div>} {/* Display success message */}
+            {isAlreadySubscribed && <div className="already-subscribed-message">Already Subscribed!</div>} {/* Display already subscribed message */}
+
         </div>
     );
 };

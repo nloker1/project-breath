@@ -85,7 +85,7 @@ app.post('/submit-form', (req, res) => {
   });
 });
 
-const port = process.env.PORT || 3002; // Fallback to 3001 if process.env.PORT is not set
+const port = process.env.PORT || 3002; // Fallback to 3002 if process.env.PORT is not set
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
