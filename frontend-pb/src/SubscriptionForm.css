@@ -52,8 +52,14 @@
     border: 2px solid #ff0000; /* Red border for error */
 }
 
+.success-message {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 .error-message {
     color: #ff0000; /* Red text for error message */
     font-size: 14px;
     margin-top: 5px;
 }
+

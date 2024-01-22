@@ -38,7 +38,6 @@ const Contact = () => {
     .then(data => {
       console.log(data);
       setIsSubmitted(true);
-      alert('Form submitted successfully.');
     })
     .catch((error) => {
       console.error('Error:', error);
@@ -88,7 +87,7 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
         ) : (
-          <p>Message sent successfully! I will be in touch soon!</p>
+          <p>Message sent successfully! We will be in touch soon!</p>
         )}
     </div>
     </div>

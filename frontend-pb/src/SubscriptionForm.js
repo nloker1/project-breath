@@ -4,6 +4,10 @@ import './SubscriptionForm.css'; // Make sure to create a CSS file with this nam
 const SubscriptionForm = () => {
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState(''); // State to keep track of the email error message
+    const [isSubscribed, setIsSubscribed] = useState(false); // State to keep track of subscription status
+    const [isAlreadySubscribed, setIsAlreadySubscribed] = useState(false); // State to keep track of subscription status
+
+
 
     // Validation function for the email
     const validateEmail = (email) => {
@@ -37,9 +41,11 @@ const handleSubmit = (event) => {
         .then(data => {
             console.log('Success:', data);
             setEmail(''); // Clear the email field after successful submission
+            setIsSubscribed(true); // Set subscription status to true
         })
         .catch((error) => {
             console.error('Error:', error);
+            
         });
 
         setEmailError(''); // Clear error message
@@ -62,6 +68,7 @@ const handleSubmit = (event) => {
                 {emailError && <div className="error-message">{emailError}</div>} {/* Display error message */}
                 <button type="submit" className="submit-button">Subscribe</button>
             </form>
+            {isSubscribed && <div className="success-message">Subscription successful!</div>} {/* Display success message */}
         </div>
     );
 };
