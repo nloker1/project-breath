@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AudioFiles from './AudioData';
+import AudioFiles from './AudioFiles';
 import Header from './Header';
 import Footer from './Footer';
 

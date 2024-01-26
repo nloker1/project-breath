@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import Footer from './Footer';
 import './Home.css'; 
 
 const Home = () => {
@@ -11,7 +10,7 @@ const Home = () => {
       <div className="hero-section">
         <div className="overlay-text">
           <h1>Welcome to Project Breath</h1>
-          <p>Guided Breath Work From The World's Leading Experts</p>
+          <p>The Art and Science of Breath</p>
           {/*<button className="subscribe-button">Start Your Free Trial</button>*/}
         </div>
       </div>

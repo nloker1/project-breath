@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import AudioFiles from './AudioData';
+import AudioFiles from './AudioFiles';
 import Header from './Header';
 import './AudioLink.css';
 
@@ -19,6 +19,7 @@ const AudioLink = () => {
   return (
     <div>
       <div className="audio-link">
+        <Header />
         <h2>{audio.title}</h2>
         <p>{audio.description}</p>
         <audio controls src={audio.audioUrl}>

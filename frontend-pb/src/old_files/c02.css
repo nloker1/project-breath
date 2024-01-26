@@ -1,0 +1,161 @@
+/* Base styles (applies to mobile and smaller screens by default) */
+.home-content {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-left: 20px; /* Adjust according to your sidebar's width */
+    text-align: left; /* Left-align text */
+    padding-top: 30px; /* Padding on the top and bottom */
+}
+
+
+
+.subtitle {
+  font-size: 1.5rem; /* Smaller than H1, adjust as needed */
+  margin-top: 0;
+  font-weight: normal; /* Less bold than H1 */
+  /* Additional styling */
+}
+
+
+
+/* Header and headshot styles for small screens */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This will place the text and image at opposite ends */
+  margin-bottom: 50px; /* Adjust as needed */
+}
+
+.text-container h1 {
+  font-size:2.75rem;
+  margin-left: 0;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #000; /* Thinner solid line */
+
+}
+
+
+h2 {
+  font-size: 1.75rem; /* Smaller font size for smaller screens */
+  margin-top: 20px; /* Space above h2 */
+}
+
+h3 {
+  font-size: 1.25rem; /* Smaller font size for smaller screens */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem; /* Smaller font size for paragraphs on smaller screens */
+}
+
+/* Styles for wider screens */
+@media (min-width: 768px) {
+
+  .home-content {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-left: 2px; /* Adjust according to your sidebar's width */
+    text-align: left; /* Left-align text */
+    padding-top: 30px; /* Padding on the top and bottom */
+  }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This will place the text and image at opposite ends */
+  margin-bottom: 50px; /* Adjust as needed */
+}
+
+
+.text-container h1 {
+  font-size:4.25rem;
+  margin: 0;
+  border-bottom: 1px solid #000; /* Thinner solid line */
+
+}
+
+.text-container h3 {
+  margin: 0;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Stack the name and title vertically */
+}
+
+
+  h2 {
+  font-size:2.75rem; /* Increase font size for h2 */
+  margin-top: 1px;
+  margin-bottom: 0px; /* Add space above the h2 header */
+}
+
+  h3 {
+  font-size: 2rem; /* Increase font size for h2 */
+  margin-top: 1px; /* Add space above the h2 header */
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+
+
+  .home-content ul {
+    list-style-type: disc; /* Use disc-shaped bullets */
+    padding-left: 50px; /* Add some padding to the left of the list for indentation */
+    margin-top: 10px; /* Add some space above the list */
+    margin-bottom: 10px; /* Add some space below the list */
+}
+
+.home-content li {
+    font-size: 25px; /* Set the font size for list items */
+    font-weight: ;
+    line-height: 1.6; /* Adjust the line height for better readability */
+    color: #333; /* Set the text color; #333 is a dark gray */
+    margin-bottom: 5px; /* Add some space between list items */
+    max-width: 900px;
+}
+
+
+.stopwatch-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 50%;
+
+}
+
+.stopwatch {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  border: 2px solid black; /* Solid border with a color of your choice */
+  padding: 15px; /* Spacing inside the border */
+  border-radius: 10px; /* Rounded corners for the border */
+  background-color: #f9f9f9; /* Light background color */
+  display: inline-block; /* Makes the div wrap around the content */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Optional: adds a shadow for a 3D effect */
+
+}
+
+
+.stopwatch .time {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.stopwatch button {
+  font-size: 1em;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+
+}

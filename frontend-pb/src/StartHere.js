@@ -35,7 +35,7 @@ const Why = () => {
       <h1> How do I get started? </h1>
       <p>
       One of the best things about breathwork is that all you need is a quiet place to practice.
-      No gym membership, no fancy equipment, just some peace and quiet and some guidance. 
+      No gym membership, no fancy equipment, just some peace and quiet and your breath. 
       We have some of the best teacher so let's get started!  <Link to="/audio-recording">Audio Recordings</Link>
       </p>
     </div>

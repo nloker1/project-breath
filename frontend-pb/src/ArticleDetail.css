@@ -1,0 +1,31 @@
+.article-detail {
+  max-width: 850px; /* or any other suitable width */
+  margin: auto; /* center the content */
+}
+
+.article-detail img {
+  max-width: 100%;
+  height: auto; /* maintain aspect ratio */
+  display: block; /* prevent inline extra space */
+  margin: 0 auto; /* center the image */
+}
+
+.article-detail H1 {
+  font-size: 44px; /* or any other size you prefer */
+  /* other styles like line-height, color, etc. */
+}
+
+.article-detail H2 {
+  font-size: 36px; /* or any other size you prefer */
+  /* other styles like line-height, color, etc. */
+}
+
+.article-detail H3 {
+  font-size: 28px; /* or any other size you prefer */
+  /* other styles like line-height, color, etc. */
+}
+
+.article-detail p {
+  font-size: 22px; /* or any other size you prefer */
+  /* other styles like line-height, color, etc. */
+}
