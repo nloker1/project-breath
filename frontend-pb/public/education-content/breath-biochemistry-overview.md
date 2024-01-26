@@ -10,14 +10,14 @@ In this article we look at the process of a breath from start to finish and some
 
 Below is diagram of the gas exchange process between an alveoli and blood vessel. The alveoli are tiny sacs in our lungs that mediate this exchange.  The diagram below shows the gas exchange with oxygen crossing into our circulatory system and carbon dioxide being offloaded from the ciruclatory system back to the alveoli to be expelled by our lungs. 
 
-![img](/education/avleoli->blood-vessel.png)
+![img](/education-content/avleoli->blood-vessel.png)
 
 
 ## Circulatory System
 
 When oxygen enters our blood vessels through the lungs, it is carried to the heart which pumps it throughout our circulatory system. In the diagram below, the arteries carry oxygen rich blood away from the heart to be delivered to our cells for cellular respiration (energy production). The transfer of oxygen rich blood becoming carbon dioxide rich blood happens at the capillaries. Shown as the purplish smaller lines in the diagram. The presence of CO₂ in the capillaries signals the red blood cells to deliver the O₂ to the cell. CO₂ rich blood is then carried back to the heart and lungs by veins where it is eventually exhaled through our lungs. 
 
-![=](/education/circulatory-system.png)
+![=](/education-content/circulatory-system.png)
 
 
 ## Cellular Respiration
@@ -35,7 +35,7 @@ One very interesting thing to note.
 The reason we breath faster when we exercise is not to increase the amount of oxygen in our blood but to offload excess carbon dioxide from our blood. The amount of oxygen in our blood that can be used by our tissues is almost always stable between 95-100% even during exercise. This means that when our breathing rate increases the concentration of oxygen in our blood does *not* increase as well. So how does more oxygen get to the tissues that are working to create more energy? Remember that in the process of creating energy carbon dioxide is also produced. The increase of carbon dioxide in our blood makes oxygen more available to our tissues in something known as the Bohr Effect.  This allows the tissues that are producing the most energy (and carbon dioxide!) to receive the most oxygen. It is also the presence of carbon dioxide in our blood that the brain monitors and uses to control the breathing stimulus. As the amount of carbon dioxide in our blood increases the urge to breath also increases. 
 
 
-![=](/education/aerobic-respiration.jpeg)
+![=](/education-content/aerobic-respiration.jpeg)
 
 ### **Anaerobic Respiration**
 
@@ -43,7 +43,7 @@ The reason we breath faster when we exercise is not to increase the amount of ox
 
 Anaerobic respiration is how our cells produce energy in the absence of oxygen. This process is less efficient than aerobic respiration but the energy is delivered much more quickly. If, for example, our muscles are doing intense or explosive movements, aerobic respiration cannot provide enough energy quickly enough and anaerobic respiration is necessary. The biological mechanism for how anaerobic respiration supplies energy more quickly is not clear to me. If anyone reading this with a better understanding of biology/exercise physiology please let me know and I will update this. 
 
-![=](/education/anaerobic-respiration.jpeg)
+![=](/education-content/anaerobic-respiration.jpeg)
 
 
 ## Conclusion 
