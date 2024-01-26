@@ -10,7 +10,6 @@ const ArticleDetail= () => {
 
   useEffect(() => {
     const mdPath = EducationContent[articleId]?.mdLink || '';
-    console.log(mdPath)
     if (mdPath) {
       fetch(mdPath)
         .then(response => response.text())
