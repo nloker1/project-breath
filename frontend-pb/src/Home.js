@@ -10,7 +10,7 @@ const Home = () => {
       <div className="hero-section">
         <div className="overlay-text">
           <h1>Welcome to Project Breath</h1>
-          <p>The Art and Science of Breath</p>
+          <p>The Art and Science of Breathing better</p>
           {/*<button className="subscribe-button">Start Your Free Trial</button>*/}
         </div>
       </div>
