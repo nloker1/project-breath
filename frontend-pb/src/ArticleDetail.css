@@ -29,3 +29,7 @@
   font-size: 22px; /* or any other size you prefer */
   /* other styles like line-height, color, etc. */
 }
+
+.article-detail li {
+  font-size: 22px;
+}

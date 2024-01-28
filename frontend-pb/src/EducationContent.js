@@ -9,6 +9,11 @@ const EducationContent = {
     date: '1/27/24',
     mdLink: '/education-content/carbon-dioxide-overview.md'
   },
+  article3 {
+    title: 'Carbon Dioxide Tolerance Test',
+    date: '1/27/24',
+    mdLink: '/education-content/carbon-dioxide-tolerance-test.md'
+  },
 
   // Add more articles or content here
 };
