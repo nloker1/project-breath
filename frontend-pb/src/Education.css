@@ -1,0 +1,24 @@
+/* Education.css */
+
+.header-with-image {
+  /* your existing styles */
+  margin-bottom: 10px; /* Reduce this value to decrease space after the header */
+}
+
+.links-container {
+  /* your existing styles */
+  margin-top: 0px; /* Reduce this value to decrease space before the links */
+}
+
+.education-item h2 {
+  font-size: 26px;
+  margin: 0 0 5px 0; /* Adjust the bottom margin to reduce space */
+
+}
+.education-item h3 {
+  font-size: 16px;
+  margin: 0 0 10px 0; /* Adjust the top margin to reduce space */
+  color: #808080;
+
+}
+

@@ -21,6 +21,7 @@ const Education = () => {
           <div key={key} className="education-item">
             <Link to={`/education/${key}`}>
               <h2>{EducationContent[key].title}</h2>
+              <h3>{EducationContent[key].date}</h3>
             </Link>
           </div>
         ))}
