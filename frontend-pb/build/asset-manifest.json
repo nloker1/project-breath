@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.9e7994ea.css",
-    "main.js": "/static/js/main.5d652cc6.js",
+    "main.js": "/static/js/main.fe680f3d.js",
     "static/js/787.1232c12c.chunk.js": "/static/js/787.1232c12c.chunk.js",
     "static/media/mtn_photo.jpg": "/static/media/mtn_photo.0ee592a977018651fde3.jpg",
     "index.html": "/index.html",
     "main.9e7994ea.css.map": "/static/css/main.9e7994ea.css.map",
-    "main.5d652cc6.js.map": "/static/js/main.5d652cc6.js.map",
+    "main.fe680f3d.js.map": "/static/js/main.fe680f3d.js.map",
     "787.1232c12c.chunk.js.map": "/static/js/787.1232c12c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e7994ea.css",
-    "static/js/main.5d652cc6.js"
+    "static/js/main.fe680f3d.js"
   ]
 }
