@@ -18,7 +18,12 @@ const EducationContent = {
     title: 'Increased CO₂ Tolerance for Enhanced Oxygen Utilization',
     date: '1/30/24',
     mdLink: '/education-content/co2-tolerance-improvement.md'
-  }
+  },
+  article5: {
+    title: 'Wim Hof Breathing: A Biochemical Perspective',
+    date: '1/31/24',
+    mdLink: '/education-content/wim-hof-biochemical-perspective.md'
+  },
 
   // Add more articles or content here
 };
