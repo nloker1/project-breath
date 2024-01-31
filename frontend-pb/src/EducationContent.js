@@ -14,6 +14,11 @@ const EducationContent = {
     date: '1/27/24',
     mdLink: '/education-content/carbon-dioxide-tolerance-test.md'
   },
+  article4: {
+    title: 'Increased CO₂ Tolerance for Enhanced Oxygen Utilization',
+    date: '1/30/24',
+    mdLink: '/education-content/co2-tolerance-improvement.md'
+  }
 
   // Add more articles or content here
 };
