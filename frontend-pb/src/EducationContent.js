@@ -24,6 +24,11 @@ const EducationContent = {
     date: '1/31/24',
     mdLink: '/education-content/wim-hof-biochemical-perspective.md'
   },
+  article6: {
+    title: 'The Physiology of Respiratory Regulation',
+    date: '2/2/24',
+    mdLink: '/education-content/respiratory-regulation.md'
+  },
 
   // Add more articles or content here
 };
