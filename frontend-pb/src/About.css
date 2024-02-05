@@ -28,6 +28,7 @@
 .about-content p {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 22px;
   /* Text will wrap and not expand indefinitely */
 }
 

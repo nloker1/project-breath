@@ -13,7 +13,7 @@ start-container {
 }
 
 .start-container p {
-  font-size: 23px;
+  font-size: 22px;
   line-height: 1.6; /* Improved readability for longer text */
   margin-bottom: 20px;
   margin-left: 20px;
