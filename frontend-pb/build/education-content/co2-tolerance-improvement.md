@@ -9,7 +9,7 @@ The goal of this exercise to to reduce the volume of air you are breathing by ta
 ### Procedure:
 
 1. Find a comfortable spot to sit or lie down. Start a timer for 5-10 minutes.
-2. Become aware of your normal breathing and slowly decrease the amount of air you inhale. Take either a shorter or shallower inhale.. Cultivate a slight air hunger while relaxing around this feeling. 
+2. Become aware of your normal breathing and slowly decrease the amount of air you inhale. Take either a shorter or shallower inhale. Cultivate a slight air hunger while relaxing around this feeling. 
 3. Breathe out with a relaxed exhale. Aim to make your breathing as quiet as possible.
 4. If you can no longer control your breathing in a relaxed manner you have created too much air hunger. 
 
@@ -23,13 +23,13 @@ The goal of this exercise to to reduce the volume of air you are breathing by ta
 
 Warning:  Please do not attemp this exercise if you are not physically fit or have serious respitory or circulatory problems.
 
-1. While walking take a few normal breaths in and out to prepare. On an exhale hold your breath and continue walking until you have feel a medium air hunger and then breath in slowly. 
+1. While walking take a few normal breaths in and out to prepare. On an exhale hold your breath and continue walking until you feel a medium air hunger and then breath in slowly. 
 2. Minimize your breath for 15 seconds breathing in a smaller quanity of air. After 15 seconds resume normal breathing for 30 seconds.
 3. Repeat this process 8-10 times. After the first couple breath holds feel free to increase the breath hold until you feel a strong air hunger
 
 Important Note:
 
-The aim is always to resume breathing with a normal breath in through your nose, not a big gasp of air through your open mouth. You may also experience a dry mouth and cold hands, or feelings of panic and suffocation. All these indicate you have pushed your body into a stress response.If you push your body too far during a breath hold, you may feel an urgent need to pee when you resume breathing. You will feel your diaphragm begin to contract as your brain sends the signal to breathe in. Don’t push yourself to hold beyond what feels bearable. [Site source oxygen advantage]
+The aim is always to resume breathing with a normal breath in through your nose, not a big gasp of air through your open mouth. If you push your body too far during a breath hold, you will activate your bodies stress response which is not the goal. Signs of your bodies stress response include feeling of panic, a dry mouth, cold hands or feet, and  an urgent need to pee when you resume breathing. You will feel your diaphragm begin to contract as your brain sends the signal to breathe in. Don’t push yourself to hold beyond what feels bearable. [P. Mckeown]
 
 
 
@@ -56,3 +56,7 @@ As we've explored, these techniques, rooted in the principles outlined in Patric
 It's essential to approach these exercises with mindfulness and respect for your body's limits. Incremental progress is key, and regular practice can yield incremental improvements in CO₂ tolerance, which can translate to significant benefits in daily life.
 
 By incorporating these breathing strategies into your routine, you can step onto a path of discovery, exploring the rich tapestry of breathwork and its myriad benefits. In doing so, you may not only enhance your physical and mental capacities but also deepen your connection with the subtle yet powerful rhythms of your breath—the true essence of vitality and life.
+
+Sources:
+
+Mckeown, P. The Oxygen Advantage, 2015

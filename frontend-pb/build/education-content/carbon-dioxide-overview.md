@@ -1,6 +1,6 @@
 # Carbon Dioxide and Breathing
 
-Most of us recognize the crucial role oxygen plays in supplying our muscles with the energy needed for everyday activities. However, what is less understood, yet equally important, is the role of carbon dioxide (CO₂) in this process. As our muscles utilize oxygen to produce energy, carbon dioxide is generated as a byproduct. This relationship is explored in depth in the article linked here.
+Most of us recognize the crucial role oxygen plays in supplying our muscles with the energy needed for everyday activities. However, what is less understood, yet equally important, is the role of carbon dioxide (CO₂) in this process. As our muscles utilize oxygen to produce energy, carbon dioxide is generated as a byproduct. This relationship is explored in depth in the article linked [here](https://projectbreath.io/education/article1).
 
 ## Cellular Respiration: The Energy Equation
 
